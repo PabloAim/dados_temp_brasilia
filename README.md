@@ -18,6 +18,9 @@ Analista de Dados em formação avançada, com sólida base em tecnologia e espe
 - Atualmente no 3º semestre de Ciência de Dados e Inteligência Artificial
 
 ---
+### Metodologia e Preparação de Dados
+![Validação Visual da Interpolação - Tendência de Curva](imagens/01_validacao_visual_da_interpolacao_tendencia_de_curva.png)
+
 
 ### Insight 1: Variação Histórica da Temperatura em Brasília (2000-2025)
 **ANÁLISE DE TENDÊNCIA E AMPLITUDE TÉRMICA:**
@@ -32,7 +35,7 @@ Os **momentos de menor tendência (resfriamento)** no período são:
 * **2004:** Período de estabilidade térmica com médias mais baixas.
 * **Final de 2017:** Registro da queda mais acentuada na média móvel.
 
-![Validação Visual da Interpolação - Tendência de Curva](imagens/01_validacao_visual_da_interpolacao_tendencia_de_curva.png)
+![Variação Histórica da Temperatura em Brasília (2000-2025)](imagens/02_variacao_historica_da_temperatura_em_brasilia_2000_2025.png)
 
 ---
 
@@ -61,6 +64,8 @@ Os **momentos de menor tendência (resfriamento)** no período são:
 
 * **Período de Referência (Mínimas):** O intervalo entre **2000 e 2006** representou a fase mais amena da série, com médias em torno dos **21°C**.
 
+![Evolução da Temperatura Média Anual em Brasília (2000-2025)](imagens/03_evolucao_da_temperatura_media_anual_em_brasilia_2000_2025.png)
+
 ---
 
 **ANÁLISE ESTRATÉGICA E ANOMALIAS:**
@@ -85,6 +90,8 @@ Os **momentos de menor tendência (resfriamento)** no período são:
 * **Pico de Estresse:** As chuvas chegam a níveis próximos de zero em **junho e julho**. Consequentemente, a umidade relativa do ar atinge seu ponto crítico em **agosto e setembro**, com médias em torno de **27**%.
 
 * **Retomada das Chuvas:** O alívio climático inicia-se em **outubro**, com uma recuperação rápida tanto nos índices de chuva acumulada quanto da umidade mínima, demonstrando a dependência direta entre a chuva e o conforto térmico.
+
+![Sazonalidade em Brasília - O Contraste entre Chuva e Seca)](imagens/04_sazonalidade_em_brasilia_contraste_chuva_e_seca.png)
 
 ---
 
@@ -111,6 +118,8 @@ Os **momentos de menor tendência (resfriamento)** no período são:
 
 * **Independência da Precipitação:** A chuva apresenta baixa correlação com as demais variáveis, sugerindo que sua ocorrência em Brasília depende de fatores externos à microclima local (como frentes frias).
 
+![Matriz de Correlação - Variáveis Meteorológicas (2000–2025)](imagens/05_matriz_de_correlacao_variaveis_meteorologicas_2000_2025.png)
+
 ---
 
 **CONCLUSÃO:** A combinação **Alta Temperatura + Baixa Umidade** é o motor do desconforto climático no DF. Para o planejamento urbano, isso reforça a necessidade de:
@@ -130,6 +139,8 @@ Os **momentos de menor tendência (resfriamento)** no período são:
 
 * **Distribuição de Pluviosidade:** Diferente das temperaturas, os maiores volumes de chuva estão mais distribuídos entre as décadas, embora o recorde máximo seja recente (**104,8mm** em nov/2022).
 
+![Identificação de Outliers e Eventos Extremos (2000–2025))](imagens/06_identificacao_de_outliers_e_eventos_extremos_2000_2025.png)
+
 ---
 
 **CONCLUSÃO:** Os dados provam que os recordes de calor e frio estão se tornando mais frequentes e severos na década atual.
@@ -148,6 +159,8 @@ Os **momentos de menor tendência (resfriamento)** no período são:
 * **Retorno Forte:** Após um longo período de relativa estabilidade (quase uma década sem atingir o nível de 10%), a reemergência desse índice em dois anos consecutivos (2024 e 2025) acende um alerta sobre a intensificação da seca na Capital.
 
 * **Recorde de Severidade:** Os anos de **2011 e 2024** destacam-se como os mais severos da série, registrando 2 dias cada de umidade em nível de emergência absoluta.
+
+![Histórico de Emergência - Umidade Crítica (≤ 10%))](imagens/07_historico_de_emergencia_umidade_critica_10.png)
 
 ---
 
@@ -174,6 +187,8 @@ Os **momentos de menor tendência (resfriamento)** no período são:
 
 * **Cenários Extremos (Emergência):** O nível de Emergência (Extremo), embora raro (0,30%), acumulou 28 dias de perigo crítico. Como visto nos insights anteriores, esses eventos estão concentrados nos picos da seca (agosto/setembro) e têm mostrado sinais de maior recorrência na última década.
 
+![Frequência dos Níveis de Conforto (2000-2025)](imagens/08_frequencia_dos_niveis_de_conforto_2000_2025.png)
+
 ---
 
 **ANÁLISE ESTRATÉGICA E SAÚDE PÚBLICA:**
@@ -199,6 +214,8 @@ Os **momentos de menor tendência (resfriamento)** no período são:
 
 * **Padrão de Urgência:** A redução drástica nos intervalos de crise prova que Brasília entrou em um ciclo de estresse climático contínuo.
 
+![Aceleração do Ciclo de Crises (Recorrência)](imagens/09_aceleracao_do_ciclo_de_crises_recorrencia.png)
+
 ---
 
 **DIAGNÓSTICO ESTRATÉGICO FINAL:** A combinação da Tabela de Conforto com a Aceleração da Recorrência mostra que o desafio de Brasília não é mais se preparar para "se a crise vier", mas sim criar protocolos para uma crise que agora possui um calendário previsível e frequente.
@@ -213,6 +230,8 @@ Os **momentos de menor tendência (resfriamento)** no período são:
 * **Picos de Crise:** Anos como **2015, 2019, 2024** e o início de **2025** mostram um acúmulo perigoso de dias sob estresse climático, ultrapassando frequentemente a marca de 30 a 40 dias de risco por ano.
 
 * **A Combinação Fatal:** O risco não advém apenas da seca, mas da sua combinação com o calor. O aumento das condições de "Emergência" reflete os períodos onde a baixa umidade encontrou temperaturas máximas recordes.
+
+![Evolução do Risco à Saúde Pública](imagens/10_evolucao_do_risco_a_saude_publica.png)
 
 ---
 
