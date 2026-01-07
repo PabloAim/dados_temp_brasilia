@@ -32,6 +32,8 @@ Os **momentos de menor tendência (resfriamento)** no período são:
 * **2004:** Período de estabilidade térmica com médias mais baixas.
 * **Final de 2017:** Registro da queda mais acentuada na média móvel.
 
+![Validação Visual da Interpolação - Tendência de Curva](imagens/01_validacao_visual_da_interpolacao_tendencia_de_curva.png)
+
 ---
 
 **DIAGNÓSTICO CLIMÁTICO:**
