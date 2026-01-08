@@ -17,6 +17,19 @@ Analista de Dados em formação avançada, com sólida base em tecnologia e espe
 - Pós-graduado em Big Data para Business Analytics e Business Intelligence  
 - Atualmente no 3º semestre de Ciência de Dados e Inteligência Artificial
 
+## 📑 Sumário
+1. [Metodologia e Preparação de Dados](#-metodologia-e-preparação-de-dados)
+2. [Insight 1: Variação Histórica da Temperatura](#insight-1-variação-histórica-da-temperatura-em-brasília-2000-2025)
+3. [Insight 2: Evolução da Temperatura Média Anual](#insight-2-evolução-da-temperatura-média-anual-em-brasília-2000-2025)
+4. [Insight 3: Sazonalidade — O Contraste entre Chuva e Seca](#insight-3-sazonalidade-em-brasília--o-contraste-radical-entre-chuva-e-seca)
+5. [Insight 4: Dinâmica das Variáveis (Correlação)](#insight-4-dinâmica-das-variáveis-meteorológicas-2000---2025)
+6. [Insight 5: Recordes e Eventos Extremos](#insight-5-recordes-e-eventos-extremos-2000---2025)
+7. [Insight 6: Histórico de Emergência (Umidade ≤ 10%)](#insight-6-histórico-de-emergência---umidade-crítica--10)
+8. [Insight 7: Diagnóstico de Conforto e Risco à Saúde](#insight-7-diagnóstico-de-conforto-e-risco-à-saúde-2000---2025)
+9. [Insight 9: Evolução do Risco à Saúde Pública](#insight-9-a-evolução-do-risco-à-saúde-pública-20002025)
+10. [Conclusão Final](#conclusão-final-brasília-2000--2025)
+11. [Como rodar o projeto](#-como-rodar)
+
 ---
 ### Metodologia e Preparação de Dados
 ![Validação Visual da Interpolação - Tendência de Curva](imagens/01_validacao_visual_da_interpolacao_tendencia_de_curva.png)
@@ -257,3 +270,32 @@ Após o processamento de mais de **9.000 registros** e **25 anos** de dados mete
 * **Eventos Extremos:** Identificamos que anos de forte influência climática global (como o El Niño de 2015/2016) funcionam como catalisadores, concentrando recordes de temperatura acima de **30°C**.
 
 * **Risco à Saúde:** Mapeamos **631 dias** de risco climático (603 em Alerta e 28 em Emergência). Isso prova que o estresse térmico em Brasília é um evento cíclico e previsível, permitindo o planejamento antecipado de ações de saúde pública e defesa civil.
+
+---
+
+> Obrigado por acompanhar meu projeto. Me empenhei muito nele.
+> 
+> Se você busca um profissional com foco em transformar dados brutos em decisões inteligentes, vamos conversar:
+
+* **LinkedIn:** [Pablo Torres](https://www.linkedin.com/in/pablo-torres-2a6972239/) 
+* **GitHub:** [Ver outros projetos](https://github.com/PabloAim) 
+* **Email:** pabloaim@icloud.com
+
+---
+
+## Como rodar
+
+Para replicar esta análise em sua máquina local, siga os passos abaixo:
+
+```bash
+# Clone o repositório
+git clone https://github.com/PabloAim/dados_temp_brasilia.git
+
+# Entre na pasta do projeto
+cd dados_temp_brasilia
+
+# Instale as dependências necessárias
+pip install pandas matplotlib seaborn jupyter
+
+# Inicie o Jupyter Notebook para visualizar a análise
+jupyter notebook
